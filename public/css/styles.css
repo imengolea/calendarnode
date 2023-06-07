@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    margin: 0 7%;
+    padding: 2% 0;
+}
+/*nav*/
+a {
+    text-decoration: none;
+    color:black
+  }
+nav{
+    margin: 3% 4%;
+}
+.logo{
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+   
+}
+ul{
+    float: right;
+}
+.nav-baritem{
+    float: left; 
+    padding: 0 20px;
+    margin: auto;
+    list-style: none;
+    font-size: 18px;
+    
+}
+
+
+
+/*head*/
+.grid-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .big-heading {
+    color: black;
+    font-size: 50px;
+    width: 400px;
+    
+    
+  }
+
+.header-image { 
+    background-image: url('/images/big-img.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 686px;
+    height: 396px;
+    right: 102px;
+    top: 94px;
+    border-radius: 57px;
+    animation: change 10s infinite ease-in-out;
+   
+  }
+
+@keyframes change{
+    0%{
+        background-image: url('/images/bigimg2.jpg');
+    }
+    20%{
+        background-image: url('/images/bigimg3.jpg');
+    }
+    40%{
+        background-image: url('/images/bigimg4.jpg');
+    }
+    60%{
+        background-image: url('/images/bigimg5.jpg');
+    }
+    80%{
+        background-image: url('/images/bigimg6.jpg');
+    }
+    100%{
+        background-image: url('/images/bigimg8.jpg');
+    }
+}
+
+/*appartement*/
+.appart-sec{
+    text-align: center;
+}
+.title-apart{
+    font-size: 30px;
+    font-weight: 800;
+}
+.grid-appart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.appart-card{
+     margin:7%;
+     padding: 6% 2%;
+     box-shadow: 1px 2px 4px 3px rgba(168, 168, 173, 0.1);
+     border-radius: 20px;
+    
+}
+.pic-appart{
+    width: 262px;
+    height: 196px;
+    border-radius: 20px;
+    
+}
+
+.text-card{
+    text-align: left;
+    margin-left:20px;
+    width: 300px;
+}
+.plus-img{
+    width: 40px;
+    height: 40px;
+    background-color: #0F94DB;
+    padding: 5px;
+    border-radius: 50%;
+   
+}
+
+
+
+/*sec3*/
+h2{
+    font-size: 25px;
+}
+.instrac{
+    list-style: none;
+    font-size: 20px;
+}
+.grid-sec3{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding:4% 8%;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+span{
+    font-weight: 900;
+}
+/*whatsapp*/
+.whatsapp-sec{
+    font-size: 20px;
+    background-color:#0F94DB ;
+    padding: 3%;
+    text-align: center;
+}
+.whatsapp-sec a{
+    color:#fff;
+    padding: 10px;
+}
