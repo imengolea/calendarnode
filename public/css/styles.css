@@ -5,6 +5,7 @@ body{
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 43, 43);
 
 }
 .container {
@@ -46,7 +47,7 @@ ul{
   }
 
   .big-heading {
-    color: black;
+    color: rgb(43, 43, 43);
     font-size: 50px;
     width: 400px;
     
@@ -87,7 +88,10 @@ ul{
         background-image: url('/images/bigimg8.jpg');
     }
 }
-
+.localisation{
+ color: rgb(85, 83, 83);
+ font-size: 18px;
+}
 /*appartement*/
 .appart-sec{
     text-align: center;
@@ -162,4 +166,77 @@ span{
 .whatsapp-sec a{
     color:#fff;
     padding: 10px;
+}
+/*apprt page*/
+.app-page{
+    text-align: center;
+    align-items: center;
+}
+.appart-name{
+font-size: 40px;
+color: #0F94DB;
+}
+h3{
+    font-size: 25px;
+    color: rgb(85, 83, 83);
+}
+.description{
+    font-size: 20px;
+}
+.pic-app{
+    width: 362px;
+    height: 296px;
+    border-radius: 20px;
+    transition: transform .2s; 
+}
+.pic-app:hover{
+    transform: scale(1.5);
+}
+/*login*/
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+.form-box{
+    position: relative;
+    width: 484px;
+    height: 450px;
+    border-radius: 30px;
+    border: 3px solid #0F94DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ .inputbox{
+        position: relative;
+        margin: 30px 0;
+        width: 414px;
+ }
+.inputbox input{
+        width: 100%;
+        height: 15px;
+        border: 1px solid #54555A;
+        border-radius: 30px;
+        padding: 20px 10px;
+        color:#54555A ;
+        font-size: 15px;
+}
+.adm-btn{
+    width: 100%;
+    height: 40px;
+    color: #fff ;
+    background: #0F94DB;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.adm-btn:hover{
+    background: #0f94dbae;
 }
